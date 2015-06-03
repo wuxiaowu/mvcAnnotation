@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<struts>
+    <!--<form-beans>-->
+       <!--<bean name="user" class="com.frame.learn.mvc.form.UserForm"></bean>-->
+    <!--</form-beans>-->
+    <!--<action-mapping>-->
+        <!--<action name="user" type="com.frame.learn.mvc.action.UserAction" path="/user">-->
+            <!--<forward name="success" value="/view/success.jsp"></forward>-->
+            <!--<forward name="fail" value="/view/fail.jsp"></forward>-->
+        <!--</action>-->
+    <!--</action-mapping>-->
+    <scan package="com.frame.learn.mvc.action"></scan>
+
+</struts>
